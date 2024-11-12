@@ -1,0 +1,98 @@
+.containers{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 255, 255, 0.626);
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+
+
+
+
+.container{
+    flex-grow: 1;
+    flex-basis: 150px;
+    margin: 10px;
+    background-color: beige;
+    height: 380px;
+    width: 20%;
+    border-radius: 5%;
+    border: 2px solid beige;
+    box-shadow: bisque 2px;
+    
+}
+img{
+    position: relative;
+    height: 250px;
+    width: 80%;
+    margin: 5% 10%;
+}
+.hurrytime{
+    background-color: aliceblue;
+    
+}
+.hurrytime , .time, .bomb{
+    position: absolute;
+    margin-left: -250px;
+    margin-top: 240px;
+    border-radius: 5px;
+    width: 100px;
+    
+   display: inline;
+}
+.title{
+    opacity: 50%;
+    margin-top: -15px;
+    text-align: center;
+}
+.price , h2,h3{
+display: inline;
+margin-left: 10px;
+opacity: 85%;
+}
+h3{
+    
+    text-decoration: line-through 1.5px;
+    color: rgba(0, 0, 0, 0.772);
+}
+.offer{
+    text-decoration: none;
+    color: rgba(7, 95, 7, 0.941);
+    
+}
+.delivery{
+    float: left;
+    margin-top: -15px;
+    margin-left: -15px;
+    background-color: rgb(237, 240, 240);
+}
+.ratings,.rating-star, .reviews{
+    display: inline;
+   
+}
+.rating-star{
+    margin-top:1 ;
+    background-color: rgb(27, 211, 27);
+    height: 35px;
+    border-radius: 5px;
+
+}
+.ratings{
+    
+    margin-left: -90px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 45%;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 40%;
+    }
+}
